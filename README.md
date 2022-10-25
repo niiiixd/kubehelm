@@ -2,7 +2,7 @@ KubeHelm
 =======
 
 # What is KubeHelm
-A minimalist Debian-based image built specifically to be used as a base image for `helm` and `kubectl`.
+A minimalist [Debian-based](https://hub.docker.com/r/niiiix/debian) image built specifically to be used as a base image for `helm` and `kubectl`.
 
 # Use KubeHelm
 You can use the image directly, e.g.
