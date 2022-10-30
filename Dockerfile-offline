@@ -1,4 +1,4 @@
-FROM niiiix/debian:mini-latest
+FROM niiiix/debian-mini:latest
 LABEL MAINTAINER="Sadegh Khademi" EMAIL="khademi.sadegh@gmail.com"
 
 COPY ./app/* /usr/local/
