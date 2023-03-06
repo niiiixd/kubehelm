@@ -2,27 +2,27 @@ KubeHelm
 =======
 
 # What is KubeHelm
-A minimalist [Debian-based](https://hub.docker.com/r/niiiix/debian-mini) image built specifically to be used as a base image for `helm` and `kubectl`
+A minimalist [Debian-based](https://hub.docker.com/r/niiiixd/debian-mini) image built specifically to be used as a base image for `helm` and `kubectl`
 
 # Use KubeHelm
 You can use the image directly, e.g.
 ```
-$ docker run --rm -it niiiix/kubehelm:latest
+$ docker run --rm -it niiiixd/kubehelm:latest
 ```
 
-There are [tags](https://hub.docker.com/r/niiiix/kubehelm/tags/) for the different Debian releases and platforms.
+There are [tags](https://hub.docker.com/r/niiiixd/kubehelm/tags/) for the different Debian releases and platforms.
 ```
-$ docker run --rm -it niiiix/kubehelm:bullseye
+$ docker run --rm -it niiiixd/kubehelm:bullseye
 ```
 ```
-$ docker run --rm -it niiiix/kubehelm:latest-amd64
+$ docker run --rm -it niiiixd/kubehelm:latest-amd64
 ```
 
 The images are built daily and have the security release enabled, so will contain any security updates released more than 24 hours ago.
 
 You can also use the images as a base for your own `Dockerfile`:
 ```
-FROM niiiix/kubehelm:bullseye
+FROM niiiixd/kubehelm:bullseye
 ```
 
 # Compatibility
